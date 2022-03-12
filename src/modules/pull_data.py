@@ -12,11 +12,12 @@ def pull_data_into_csv(table_name, pct):
     """
 
     # Connect to mid-term database
-    con = psycopg2.connect(database='mid_term_project',
-                           user='lhl_student',
-                           password='lhl_student',
-                           host='mid-term-project.ca2jkepgjpne.us-east-2.rds.amazonaws.com',
-                           port='5432')
+    # Replace the database information with your own info 
+    con = psycopg2.connect(database='database',
+                           user='username',
+                           password='pwd',
+                           host='host',
+                           port='port')
     print("Database opened successfully")
     
     cur = con.cursor()
