@@ -36,4 +36,4 @@ def uniform_subset(df, col, nrows_cat, **kwargs):
         cat_sub = data[data[col]==cat].sample(n=nrows_cat, axis=0)
         df_sub = pd.concat([df_sub, cat_sub], axis=0)
         
-    return df_sub
+    return df_sub.reset_index(drop=True)
