@@ -100,6 +100,8 @@ def preprocess(df):
     data['dep_min_cos'] = np.cos(data.dep_min_of_day * (2. * np.pi / 1440))
     data['dep_hr_sin'] = np.sin(data.dep_hr * (2. * np.pi / 24)) # divided by total number of hours
     data['dep_hr_cos'] = np.cos(data.dep_hr * (2. * np.pi / 24))
+    data['arr_min_sin'] = np.sin(data.arr_min_of_day * (2. * np.pi / 1440)) # divided by total minutes in a day
+    data['arr_min_cos'] = np.cos(data.arr_min_of_day * (2. * np.pi / 1440))
     data['arr_hr_sin'] = np.sin(data.arr_hr * (2. * np.pi / 24))
     data['arr_hr_cos'] = np.cos(data.arr_hr * (2. * np.pi / 24))
     data['fl_mnth_sin'] = np.sin(data.fl_month * (2. * np.pi / 12)) # divided by total number of months
