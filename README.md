@@ -11,8 +11,8 @@
 * [Notebooks](src/notebooks) <br>
     Final Jupyter Notebooks. <br>
 #### Folder plots <br>
-Exploratory data analysis [plots](plots). <br>
+* Exploratory data analysis [plots](plots). <br>
 #### Folder submission.csv: <br>
-Final submission for evaluation. <br>
+* Final submission for evaluation. <br>
 <br>
 Notice: Experiments folder is just a mess for my teammate and I updating each others activities.
