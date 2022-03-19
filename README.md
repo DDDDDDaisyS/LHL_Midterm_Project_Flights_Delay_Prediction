@@ -10,9 +10,9 @@
     Contains self-written codes for pulling data from database and preprocessing for this project. <br>
 * [Notebooks](src/notebooks) <br>
     Final Jupyter Notebooks. <br>
-#### plots <br>
-    Exploratory data analysis [plots](plots). <br>
-#### submission.csv: <br>
-    Final submission for evaluation. <br>
+#### Folder plots <br>
+Exploratory data analysis [plots](plots). <br>
+#### Folder submission.csv: <br>
+Final submission for evaluation. <br>
 <br>
 Notice: Experiments folder is just a mess for my teammate and I updating each others activities.
