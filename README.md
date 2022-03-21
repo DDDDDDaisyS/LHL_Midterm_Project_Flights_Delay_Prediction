@@ -1,4 +1,4 @@
-# LHL Midterm Project_Regression
+# LHL Midterm Project
 ## Flight Delays Prediction
 #### Folder data
 * [raw](data/raw):<br>
