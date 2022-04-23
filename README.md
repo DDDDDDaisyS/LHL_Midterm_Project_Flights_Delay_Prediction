@@ -4,6 +4,9 @@
 This repo contains data and codes of Lighthouse Labs midterm project completed by me and my teammate (the other contributor). <br>
 
 The goal is to predict arrival delays of commercial flights. Often, there isn't much airlines can do to avoid the delays, therefore, they play an important role in both profits and loss of the airlines. It is critical for airlines to estimate flight delays as accurate as possible because the results can be applied to both, improvements in customer satisfaction and income of airline agencies.
+- regression (predict delay time in minutes)
+- classification (4 class: no delay; minor delay; moderate delay; severe delay)
+
 
 ### Data
 
